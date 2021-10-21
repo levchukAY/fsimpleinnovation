@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fsimpleinnovation/vibration_utils.dart';
+import 'package:fsimpleinnovation/util/vibration_utils.dart';
 
 const Duration buttonTapAnimationDuration = Duration(milliseconds: 40);
 
