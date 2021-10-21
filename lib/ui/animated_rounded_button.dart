@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fsimpleinnovation/util/screen_density_utils.dart';
 import 'package:fsimpleinnovation/util/vibration_utils.dart';
 
 const Duration buttonTapAnimationDuration = Duration(milliseconds: 40);
@@ -29,8 +30,8 @@ class _AnimatedRoundedButtonState extends State<AnimatedRoundedButton> with Tick
 
   @override
   Widget build(BuildContext context) {
-    // TODO: double height = widget.height ?? ScreenDensityUtils.get().scaleSize(48.0);
-    double height = widget.height ?? 48.0;
+    TODO: double height = widget.height ?? ScreenDensityUtils.get().scaleSize(48.0);
+     //double height = widget.height ?? 48.0;
     Widget result = LayoutBuilder(
       builder: (context, constraints) {
         return Container(

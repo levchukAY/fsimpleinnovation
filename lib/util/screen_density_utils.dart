@@ -11,7 +11,7 @@ class ScreenDensityUtils {
   double _scaleFactor = 1.0;
 
   void init(BuildContext context) {
-    _scaleFactor = 1.6;
+    _scaleFactor = 2.0;
     return;
     var screenDensity = MediaQuery.of(context).size.width;
     if (screenDensity == 0) {
